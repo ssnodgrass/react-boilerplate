@@ -6,7 +6,7 @@ describe('App', () => {
   test('should match snapshot', () => {
     const wrapper = shallow(<App />)
 
-    expect(wrapper.find('h1').text()).toBe('Welcome to ssnodgrass React Boilerplate')
+    expect(wrapper.find('h1').text()).toBe('Welcome to React Boilerplate')
     expect(wrapper).toMatchSnapshot
   })
 })
